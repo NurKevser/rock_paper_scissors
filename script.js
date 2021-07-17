@@ -59,12 +59,12 @@ function randomSelection () {
     return SELECTIONS[randomIndex];
 }
 
-const results = document.getElementsByClassName("results")
+/* const results = document.getElementsByClassName("results")
 function stopPlay(scoreSpan) {
-    if(scoreSpan === 3){
-        results.remove();
+    if(scoreSpan == 3){
+        results.innerHTML = "";
         const div = document.createElement('div');
         div.classList.add("game-finish")
     }
 
-}
+} */

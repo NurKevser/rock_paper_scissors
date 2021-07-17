@@ -1,5 +1,6 @@
 body {
-  background-color: #ccc;
+  background-color:blueviolet;
+  opacity: 0.8;
 }
 .selections {
   display: flex;
@@ -28,8 +29,9 @@ body {
 .result-score {
   margin-left: .1rem;
   font-size: 0.5rem;
-  color: #333;
+  color: white;
   font-size: 2rem;
+
 }
 
 .result-selection{
